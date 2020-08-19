@@ -1,3 +1,13 @@
+# 欢迎这是测试
+
+## 你可以访问以下网址：
+
+[mmzi官网](https://www.mmzi.xyz)  `https://www.mmzi.xyz`
+
+
+[爱游戏交易平台 测试](https://game.mmzi.xyz)  `https://game.mmzi.xyz`
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ZiccMe/myfirst/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
@@ -21,7 +31,7 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
-**Bold** and _Italic_ and `Code` text
+**Bold** and _Italic_ and `Code` text 
 
 [Link](url) and ![Image](src)
 ```
