@@ -1,0 +1,29 @@
+git init 创建
+
+系统级别签名：
+git config --global user.name zic
+git config --global user.email 84003739@qq.com
+
+git status  查看文件状态
+git add 将文件写入暂存区   git add hello.txt
+git rm 从工作区和暂存区删除文件
+git rm --cached 文件名称    恢复到工作区
+git commit 提交到本地库   git commit -m '第二次提交' hello.txt
+git checkout 切换分支或恢复工作区文件
+git reset HEAD hello.txt 将暂存区文件恢复到工作区
+git reset --hard 局部索引值   跳到指定版本/恢复误删文件
+
+git log --pretty=oneline  查看提交日志
+git log
+git log --oneline
+git reflog
+
+git diff 比较文件（默认工作区和暂存区）
+git diff HEAD   暂存区和本地库比较
+
+git remote add origin https://github.com/ZiccMe/myfirst.git  添加一个远程库 取名为origin 
+git remote -v 查看远程库信息
+git push -u origin master 
+
+git clone https://github.com/ZiccMe/myfirst.git   开发人员克隆下载
+git pull origin master    相当于git fetch 和 git merge   获取最新版本并Merge到本地
